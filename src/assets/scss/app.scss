@@ -1,12 +1,17 @@
 @charset 'utf-8';
 
-//$global-flexbox: true;
-
-//@import 'bits';
+@import 'bits';
 @import 'util/util';
 @import '../../../node_modules/foundation-sites/scss/vendor/normalize';
 
 @include foundation-normalize();
+
+
+@import 'global/base';
+@import 'components/mapped';
+@import 'components/tour';
+
+
 
 // @import 'settings';
 // @import 'foundation';

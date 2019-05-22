@@ -1,0 +1,73 @@
+.toplogo,
+.bottomlogo {
+    position: fixed;
+    z-index: 1;
+    font-size: 0.75rem;
+}
+
+.toplogo {
+    width: 25%;
+    max-width: 18em;
+    top: calc(1.5vw + 2.5%);
+    left: calc(1.5vw + 2.5%);
+}
+
+.bottomlogo {
+    width: 20%;
+    max-width: 12em;
+    bottom: calc(1.5vw + 2.5%);
+    right: calc(1.5vw + 2.5%);
+}
+
+.mapped {
+    position: relative;
+    width: 100%;
+    //height: 100vh;
+    //min-height: 30rem;
+    border: 1.5vw solid $body-background;
+    margin: 0 auto;
+}
+
+.mapped__img {
+    display: block;
+    width: 100%;
+    //height: 100%;
+    //object-fit: cover;
+}
+
+.mapped__map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    fill: transparent;
+}
+
+@supports (object-fit: cover) {
+    .mapped {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 30rem;
+        border: 1.5vw solid $body-background;
+    }
+
+    .mapped__img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mapped__map {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        fill: transparent;
+    }
+}
