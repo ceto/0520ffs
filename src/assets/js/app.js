@@ -1,4 +1,4 @@
-// import $ from 'jquery';
+// import $ from "jquery";
 // import 'what-input';
 
 // Foundation JS relies on a global varaible. In ES6, all imports are hoisted

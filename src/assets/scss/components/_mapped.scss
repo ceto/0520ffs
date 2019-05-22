@@ -3,6 +3,7 @@
     position: fixed;
     z-index: 1;
     font-size: 0.75rem;
+    display: block;
 }
 
 .toplogo {
@@ -10,6 +11,17 @@
     max-width: 18em;
     top: calc(1.5vw + 2.5%);
     left: calc(1.5vw + 2.5%);
+}
+
+.toplogo--overlayed {
+    background-color: rgba($c-primary, .75);
+    padding:1.5vw;
+    // border:1em solid rgba($c-primary, .75);
+    // background-clip: padding-box;
+    width: 25%;
+    max-width: 16em;
+    top: 1.5vw;
+    left: 1.5vw;
 }
 
 .bottomlogo {
