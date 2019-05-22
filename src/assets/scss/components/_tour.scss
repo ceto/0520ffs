@@ -1,11 +1,13 @@
 .tourpage iframe {
     display: block;
     width: 100%;
-    height: calc(100vh - 1.875rem);
+    height: calc(100vh - 2rem);
     background: black;
 }
 
 .sitefooter {
+    position: fixed;
+    left:0; bottom:0;
     font-size: .75rem;
     line-height: 1.2;
     text-align: center;

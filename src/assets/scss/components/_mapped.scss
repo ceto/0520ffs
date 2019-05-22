@@ -7,21 +7,21 @@
 }
 
 .toplogo {
-    width: 25%;
+    width: 33.333%;
     max-width: 18em;
     top: calc(1.5vw + 2.5%);
     left: calc(1.5vw + 2.5%);
 }
 
 .toplogo--overlayed {
-    background-color: rgba($c-primary, .75);
-    padding:1.5vw;
+    // background-color: rgba($c-primary, .75);
+    // padding:1.5vw;
     // border:1em solid rgba($c-primary, .75);
     // background-clip: padding-box;
-    width: 25%;
-    max-width: 16em;
-    top: 1.5vw;
-    left: 1.5vw;
+    // width: 25%;
+    // max-width: 16em;
+    // top: 1.5vw;
+    // left: 1.5vw;
 }
 
 .bottomlogo {
@@ -34,6 +34,7 @@
 .mapped {
     position: relative;
     width: 100%;
+
     //height: 100vh;
     //min-height: 30rem;
     border: 1.5vw solid $body-background;
