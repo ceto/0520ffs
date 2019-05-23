@@ -17,13 +17,15 @@
 
 import Noty from "noty";
 
-var n = new Noty({
-  text: "Click on Buildings to Access Tours",
-  theme: "0520",
-  layout: "topRight",
-  closeWith: ["click"]
-});
+if (!document.body.className.match("tourpage")) {
+  var n = new Noty({
+    text: "Click on Buildings to Access Tours",
+    theme: "0520",
+    layout: "topRight",
+    closeWith: ["click"]
+  });
 
-setTimeout(() => {
-  n.show();
-}, 2000);
+  setTimeout(() => {
+    n.show();
+  }, 2000);
+}
