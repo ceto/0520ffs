@@ -6,6 +6,9 @@
 
 @include foundation-normalize();
 
+//@import '../../../node_modules/noty/src/noty';
+//@import '../../../node_modules/noty/src/themes/light';
+@import 'components/noty';
 
 @import 'global/base';
 @import 'global/typography';
