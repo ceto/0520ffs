@@ -26,4 +26,4 @@ var n = new Noty({
 
 setTimeout(() => {
   n.show();
-}, 1000);
+}, 2000);
